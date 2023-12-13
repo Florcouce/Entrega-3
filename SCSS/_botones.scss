@@ -1,0 +1,26 @@
+@import 'mixin';
+
+.botones-alineacion {
+    
+    @include flex(flex, center,center);
+    margin-top: 20px;
+    }
+
+.button{
+    background-color: pink;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+    &:hover{ 
+        background-color: black;
+        border: 1px solid pink;
+        color: pink;}
+
+    }
+
+.button2{
+margin: 18px;
+    @extend .button;
+}

@@ -1,0 +1,41 @@
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+img{border-inline-color: white;}
+.EclipseLogo{width: 8rem;
+        border-radius: 100px;
+        margin-top: 15px;}
+    
+    nav{
+        ul{ 
+        list-style-type: none;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgba(255, 192, 203, 0.845);
+        display: flex;
+        
+            li{ 
+            &:hover{color: white;}
+            transition: 1s;
+                a{ text-decoration: none;
+                margin: 10px;
+               
+                 }
+              }
+           }
+       } 
+    }
+
+.Boton{
+    display: flex;
+    align-items: center;
+    img{width: 3rem;}
+}
+
+a{
+ text-decoration: none;
+ color: white;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
