@@ -76,6 +76,44 @@ span {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.MasPedidas {
+  margin: 5rem;
+  padding: 100px;
+  background-image: url(https://minish-uruguay.com/wp-content/uploads/2022/02/20211116_173150.jpg);
+  background-size: cover;
+  background-blend-mode: lighten;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Container-1 {
+  display: flex;
+  flex-direction: column;
+}
+.Container-1 h3 {
+  font-size: 60px;
+  text-align: start;
+}
+.Container-1 p {
+  font-size: 30px;
+  text-align: start;
+}
+
+.Container-2 {
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+}
+.Container-2 h4 {
+  font-size: 60px;
+}
+.Container-2 p {
+  font-size: 30px;
+  text-align: start;
+}
+
 * {
   margin: 0;
   padding: 0;
