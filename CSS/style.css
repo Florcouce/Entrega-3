@@ -223,4 +223,26 @@ h6 {
   margin: 18px;
 }
 
+.footer {
+  color: pink;
+  border-top: 1px solid white;
+  padding: 20px;
+  display: flex;
+  margin-left: 15px;
+  align-items: center;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: large;
+}
+.footer ul {
+  display: flex;
+}
+.footer ul li {
+  justify-content: space-between;
+  margin: 15px;
+  align-items: center;
+  list-style-type: none;
+  margin-left: 40px;
+}
+
 /*# sourceMappingURL=style.css.map */
