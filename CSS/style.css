@@ -15,18 +15,16 @@ header .EclipseLogo {
 header nav ul {
   list-style-type: none;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: rgba(255, 192, 203, 0.845);
   display: flex;
-}
-header nav ul li {
-  transition: 1s;
-}
-header nav ul li:hover {
-  color: white;
 }
 header nav ul li a {
   text-decoration: none;
   margin: 10px;
+  color: rgb(253, 187, 187);
+}
+header nav ul li a:hover {
+  color: rgb(255, 255, 255);
+  transition: 1s;
 }
 
 .Boton {
@@ -126,6 +124,19 @@ p span {
 }
 .Container-2:hover {
   transform: scale(1);
+}
+
+.tarjetas {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.carousel-inner {
+  position: absolute;
+  width: auto;
 }
 
 * {

@@ -13,17 +13,18 @@ img{border-inline-color: white;}
         ul{ 
         list-style-type: none;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        color: rgba(255, 192, 203, 0.845);
-        display: flex;
-        
-            li{ 
-            &:hover{color: white;}
-            transition: 1s;
-                a{ text-decoration: none;
+        display: flex; 
+        li{ 
+            a{ text-decoration: none;
                 margin: 10px;
+                color: rgb(253, 187, 187);
                
-                 }
-              }
+            &:hover{
+                color: rgb(255, 255, 255);
+                transition: 1s;
+            }
+             }
+            }  
            }
        } 
     }

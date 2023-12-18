@@ -1,3 +1,4 @@
+
 h1{ 
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: rgba(255, 192, 203, 0.822);
@@ -90,10 +91,19 @@ transition: 1s;
  
 } 
 
+.tarjetas{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+} 
 
+.carousel-inner{ 
+   position: absolute;
+   width: auto;
 
-  
-    
+}    
 
 
 
