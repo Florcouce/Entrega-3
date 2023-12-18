@@ -184,7 +184,7 @@ h6 {
 .redes-sociales-botones img {
   margin-top: 60px;
   justify-content: center;
-  padding-left: 640px;
+  padding-left: 580px;
   transition: 1s;
 }
 .redes-sociales-botones img:hover {
@@ -243,6 +243,32 @@ h6 {
   align-items: center;
   list-style-type: none;
   margin-left: 40px;
+}
+
+@media screen and (max-width: 390px) {
+  header nav li a {
+    position: fixed;
+  }
+  main {
+    position: absolute;
+  }
+  .MasPedidas {
+    background-image: none;
+    background-color: pink;
+  }
+  h3 {
+    font-size: small;
+  }
+  h4 {
+    font-size: small;
+  }
+  h6 {
+    font-size: small;
+  }
+  .redes-sociales-botones img {
+    justify-content: center;
+    padding-left: 80px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
